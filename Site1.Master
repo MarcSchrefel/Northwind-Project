@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Projekt_m133_m151.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>GBS-Northwind</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <header>
+        <div>
+            <nav >
+                <h1>GBS-Northwind</h1>
+                <ul>
+                    <li><a href="Login.aspx">Login</a></li>
+                    <li><a href="Region.aspx">Region</a></li>
+                    <li><a href="Impressum.aspx">Impressum</a></li>
+                </ul>
+            </nav>
+        </div>
+          
+        <div></div>
+    </header>
+
+
+   
+
+     <img id="GBS"
+                     src="https://www.gbssg.ch/fileadmin/user_upload/bilder/Teaserboxen/gbssg_ch_Logo_rgb_16_9.jpg" />
+        
+    <form id="form1" runat="server">
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+    
+    
+        
+
+        <footer>
+            <p>&copy; 2022 Marc Schrefel</p>
+        </footer>
+    </form>
+</body>
+</html>

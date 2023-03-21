@@ -1,0 +1,22 @@
+﻿body {
+}
+
+.EingabeRegion {
+    background-color: black;
+    color: white;
+}
+
+.AddRegion {
+    background-color: green;
+}
+
+.DeleteRegion {
+    background-color: red;
+}
+.aRegion {
+    background-color:aqua;
+}
+
+.TabelleRegion {
+    background-color: rebeccapurple;
+}
